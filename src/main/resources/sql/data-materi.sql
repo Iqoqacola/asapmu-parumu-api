@@ -68,7 +68,7 @@ VALUES (
          </p>
        </div>
     </div>',
-    '/public/modules/1.Pengantar.png',
+    '/modules/1.Pengantar.png',
     NULL, NULL, NULL
 ) ON CONFLICT (id) DO UPDATE SET text_content = EXCLUDED.text_content, image_url = EXCLUDED.image_url;
 
@@ -122,7 +122,7 @@ VALUES (
          </div>
        </div>
     </div>',
-    '/public/modules/2.ZatBerbahaya.png',
+    '/modules/2.ZatBerbahaya.png',
     'VIDEO',
     'https://www.youtube.com/embed/96ZPwmtjpJQ?si=bojvnLlhkFINjDOA',
     'Animasi: Zat Berbahaya Dalam Rokok'
@@ -183,7 +183,7 @@ VALUES (
        </div>
 
     </div>',
-    '/public/modules/3.MitosFakta.png',
+    '/modules/3.MitosFakta.png',
     NULL, NULL, NULL
 ) ON CONFLICT (id) DO UPDATE SET text_content = EXCLUDED.text_content, image_url = EXCLUDED.image_url;
 
@@ -229,7 +229,7 @@ VALUES (
          </div>
        </div>
     </div>',
-    '/public/modules/4.DampakKesehatan.png',
+    '/modules/4.DampakKesehatan.png',
     'VIDEO',
     'https://www.youtube.com/embed/273CDxUJdAA?si=dCHD6lET2IKTihCJ',
     'Animasi: Vape/Rokok Elektrik dan Rokok'
@@ -273,7 +273,7 @@ VALUES (
          </div>
        </div>
     </div>',
-    '/public/modules/5.PerokokPasif.png',
+    '/modules/5.PerokokPasif.png',
     NULL, NULL, NULL
 ) ON CONFLICT (id) DO UPDATE SET text_content = EXCLUDED.text_content, image_url = EXCLUDED.image_url;
 
@@ -305,7 +305,7 @@ VALUES (
          </div>
        </div>
     </div>',
-    '/public/modules/6.SosialEkonomi.png',
+    '/modules/6.SosialEkonomi.png',
     NULL, NULL, NULL
 ) ON CONFLICT (id) DO UPDATE SET text_content = EXCLUDED.text_content, image_url = EXCLUDED.image_url;
 
@@ -338,7 +338,7 @@ VALUES (
          </div>
        </div>
     </div>',
-    '/public/modules/7.AturanHak.png',
+    '/modules/7.AturanHak.png',
     NULL, NULL, NULL
 ) ON CONFLICT (id) DO UPDATE SET title = EXCLUDED.title, text_content = EXCLUDED.text_content, step_order = EXCLUDED.step_order, image_url = EXCLUDED.image_url;
 
@@ -381,7 +381,7 @@ VALUES (
          Berhenti merokok adalah investasi kesehatan yang bisa anda lakukan!
        </p>
     </div>',
-    '/public/modules/8.TanpaRokok.png',
+    '/modules/8.TanpaRokok.png',
     'VIDEO',
     'https://www.youtube.com/embed/DB9n7aNM6q0?si=3ja18y0CRc0xy0bC',
     'Animasi: Hidup Tanpa Rokok'
@@ -424,7 +424,7 @@ VALUES (
          </div>
        </div>
     </div>',
-    '/public/modules/9.TipsBerhenti.png',
+    '/modules/9.TipsBerhenti.png',
     NULL, NULL, NULL
 ) ON CONFLICT (id) DO UPDATE SET step_order = EXCLUDED.step_order, text_content = EXCLUDED.text_content, image_url = EXCLUDED.image_url;
 
@@ -445,7 +445,7 @@ VALUES (
          <p style="color: #555; font-size: 16px;">Klik tombol di bawah untuk memulai permainan.</p>
        </div>
     </div>',
-    '/public/modules/10.Game.png',
+    '/modules/10.Game.png',
     'GAME',
     'https://www.educaplay.com/game/25878514-crossword_puzzle_9.html',
     'Teka-Teki Silang'
