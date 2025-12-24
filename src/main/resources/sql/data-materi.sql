@@ -44,17 +44,24 @@ VALUES (
     1, 1, 1,
     'Pengantar',
     '<div style="padding: 20px; font-family: ''Helvetica Neue'', Helvetica, Arial, sans-serif; line-height: 1.6; color: #333;">
-       <h2 style="color: #2e7d32; margin-top: 0; font-size: 22px;">Apa itu Rokok?</h2>
-       <p style="font-size: 16px; margin-bottom: 20px;">
-         Rokok adalah silinder kertas berisi daun tembakau olahan. Meski umum, rokok mengandung bahan yang <strong style="color: #d32f2f;">sangat berbahaya bagi kesehatan</strong> (baik bagi perokok maupun orang sekitar).
-       </p>
+
+       <div style="background-color: #E3F2FD; padding: 15px 20px; margin-bottom: 20px; border-radius: 8px; border-left: 4px solid #1E88E5; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+         <div style="display: flex; align-items: center; margin-bottom: 5px;">
+           <span style="font-size: 20px; margin-right: 10px;">🚬️</span>
+           <strong style="text-transform: uppercase;  color: #1E88E5; font-size: 18px;">APA ITU ROKOK?</strong>
+         </div>
+         <p style="font-size: 16px;">
+           Rokok adalah silinder kertas berisi daun tembakau olahan. Meski umum, rokok mengandung bahan yang <strong style="color: #d32f2f;">sangat berbahaya bagi kesehatan</strong> (baik bagi perokok maupun orang sekitar).
+         </p>
+       </div>
+
        <p style="font-size: 16px; margin-bottom: 25px;">
          Kebiasaan ini bukan sekadar budaya, tapi ancaman serius. <strong style="color: #d32f2f;">Tidak ada dampak positif</strong> yang berarti dari merokok, justru sebaliknya, ia membawa ribuan racun ke dalam tubuh.
        </p>
        <div style="background-color: #ffebee; padding: 15px 20px; border-radius: 8px; border-left: 4px solid #c62828; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
-         <div style="display: flex; align-items: center; margin-bottom: 10px;">
+         <div style="display: flex; align-items: center; margin-bottom: 5px;">
            <span style="font-size: 20px; margin-right: 10px;">⚠️</span>
-           <strong style="color: #c62828; font-size: 18px;">Fakta Memprihatinkan</strong>
+             <strong style="text-transform: uppercase; color: #c62828; font-size: 18px;">FAKTA MEMPRIHATINKAN</strong>
          </div>
          <p style="color: #b71c1c; font-size: 15px; line-height: 1.5; margin: 0;">
            Prevalensi merokok pada remaja usia 13–15 tahun di Indonesia mencapai 20,3%. Artinya, 1 dari 5 remaja sudah meracuni tubuhnya sejak dini.
@@ -71,8 +78,9 @@ VALUES (
     2, 1, 2,
     'Kandungan Zat pada Rokok',
     '<div style="padding: 20px; font-family: ''Helvetica Neue'', Helvetica, Arial, sans-serif; line-height: 1.6; color: #333;">
-       <h2 style="color: #2e7d32; margin-top: 0; font-size: 22px; display: flex; align-items: center;">
-         <span style="font-size: 28px; margin-right: 10px;">☠️</span> Lebih dari 7.000 Zat Berbahaya
+       <h2 style="color: #b71c1c; margin-top: 0; font-size: 22px; display: flex; align-items: center;">
+           <span style="font-size: 28px; margin-right: 10px;">☠️</span>
+           LEBIH DARI 7.000 ZAT BERBAHAYA
        </h2>
        <p style="margin-bottom: 20px;">Di dalam satu batang rokok, terdapat ribuan zat kimia, ratusan di antaranya beracun dan sekitar 70 bersifat karsinogenik (penyebab kanker).</p>
        <div style="margin-top: 20px; display: grid; gap: 15px;">
@@ -126,8 +134,9 @@ VALUES (
     3, 1, 3,
     'Mitos vs. Fakta Merokok',
     '<div style="padding: 20px; font-family: ''Helvetica Neue'', Helvetica, Arial, sans-serif; line-height: 1.6; color: #333;">
-       <h2 style="color: #2e7d32; margin-top: 0; font-size: 22px; text-align: center; margin-bottom: 25px;">Meluruskan Salah Kaprah</h2>
-
+       <h2 style="color: #212121; margin-top: 0; font-size: 22px; display: flex; align-items: center; margin-bottom: 25px;">
+         BANYAK YANG SALAH PAHAM
+       </h2>
        <div style="background-color: #fff; border: 1px solid #e0e0e0; border-radius: 10px; margin-bottom: 20px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
          <div style="background-color: #ffebee; padding: 12px 20px; display: flex; align-items: center; border-bottom: 1px solid #ffcdd2;">
            <span style="font-size: 20px; margin-right: 12px;">❌</span>
@@ -158,6 +167,21 @@ VALUES (
          </div>
        </div>
 
+       <div style="background-color: #fff; border: 1px solid #e0e0e0; border-radius: 10px; margin-bottom: 20px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+         <div style="background-color: #ffebee; padding: 12px 20px; display: flex; align-items: center; border-bottom: 1px solid #ffcdd2;">
+           <span style="font-size: 20px; margin-right: 12px;">❌</span>
+           <strong style="color: #c62828; font-size: 17px;">MITOS:</strong>
+           <span style="margin-left: 10px; color: #b71c1c;">Saya masih muda, jadi belum berbahaya.</span>
+         </div>
+         <div style="padding: 15px 20px; background-color: #f9fbe7; display: flex; align-items: flex-start;">
+           <span style="font-size: 20px; margin-right: 12px;">✅</span>
+           <div>
+             <strong style="color: #33691e; font-size: 17px;">FAKTA:</strong>
+             <p style="margin: 5px 0 0 0; color: #555;">Kerusakan akibat rokok dimulai sejak hisapan pertama. Pada remaja, rokok mengganggu perkembangan otak dan paru-paru.</p>
+           </div>
+         </div>
+       </div>
+
     </div>',
     '/public/modules/3.MitosFakta.png',
     NULL, NULL, NULL
@@ -169,37 +193,37 @@ VALUES (
     4, 1, 4,
     'Dampak Kesehatan',
     '<div style="padding: 20px; font-family: ''Helvetica Neue'', Helvetica, Arial, sans-serif; line-height: 1.6; color: #333;">
-       <h2 style="color: #2e7d32; margin-top: 0; font-size: 22px; display: flex; align-items: center; justify-content: center;">
-         <span style="font-size: 30px; margin-right: 10px;">🏥</span> Dampak Kesehatan Serius
+       <h2 style="color: #212121; margin-top: 0; font-size: 22px; display: flex; align-items: center; justify-content: left;">
+         <span style="font-size: 30px; margin-right: 10px;">🏥</span> DAMPAK KESEHATAN SERIUS
        </h2>
-       <p style="text-align: center; margin-bottom: 25px; color: #555;">Merokok merusak hampir setiap organ tubuh, bukan hanya paru-paru.</p>
+       <p style="text-align: left; margin-bottom: 25px; color: #555;">Merokok merusak hampir setiap organ tubuh, bukan hanya paru-paru.</p>
 
        <div style="display: grid; gap: 15px;">
          <div style="display: flex; align-items: center; padding: 15px; background-color: #fff; border-radius: 10px; border: 1px solid #e0e0e0; border-left: 5px solid #d32f2f; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
            <span style="font-size: 30px; margin-right: 15px;">🧠</span>
            <div>
-             <strong style="color: #c62828; font-size: 17px;">Stroke & Penyakit Jantung</strong>
+             <strong style="text-transform: uppercase; color: #c62828; font-size: 17px;">Stroke & Penyakit Jantung</strong>
              <p style="margin: 5px 0 0 0; color: #555; font-size: 15px;">Penyempitan dan kerusakan pembuluh darah, meningkatkan risiko serangan jantung dan stroke fatal.</p>
            </div>
          </div>
          <div style="display: flex; align-items: center; padding: 15px; background-color: #fff; border-radius: 10px; border: 1px solid #e0e0e0; border-left: 5px solid #f57c00; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
            <span style="font-size: 30px; margin-right: 15px;">🛡️</span>
            <div>
-             <strong style="color: #e65100; font-size: 17px;">Sistem Imun Melemah</strong>
+             <strong style="text-transform: uppercase; color: #e65100; font-size: 17px;">Sistem Imun Melemah</strong>
              <p style="margin: 5px 0 0 0; color: #555; font-size: 15px;">Perokok lebih mudah sakit dan proses penyembuhan luka menjadi lebih lambat.</p>
            </div>
          </div>
          <div style="display: flex; align-items: center; padding: 15px; background-color: #fff; border-radius: 10px; border: 1px solid #e0e0e0; border-left: 5px solid #d32f2f; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
            <span style="font-size: 30px; margin-right: 15px;">⚠️</span>
            <div>
-             <strong style="color: #c62828; font-size: 17px;">Gangguan Reproduksi</strong>
+             <strong style="text-transform: uppercase; color: #c62828; font-size: 17px;">Gangguan Reproduksi</strong>
              <p style="margin: 5px 0 0 0; color: #555; font-size: 15px;">Menyebabkan impotensi pada pria, gangguan kesuburan, dan risiko komplikasi kehamilan pada wanita.</p>
            </div>
          </div>
          <div style="display: flex; align-items: center; padding: 15px; background-color: #fff; border-radius: 10px; border: 1px solid #e0e0e0; border-left: 5px solid #1976d2; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
            <span style="font-size: 30px; margin-right: 15px;">🦷</span>
            <div>
-             <strong style="color: #1565c0; font-size: 17px;">Kerusakan Mulut & Kulit</strong>
+             <strong style="text-transform: uppercase; color: #1565c0; font-size: 17px;">Kerusakan Mulut & Kulit</strong>
              <p style="margin: 5px 0 0 0; color: #555; font-size: 15px;">Bau mulut, gigi kuning, penyakit gusi, kanker mulut, dan penuaan dini pada kulit (keriput).</p>
            </div>
          </div>
@@ -217,34 +241,34 @@ VALUES (
     5, 1, 5,
     'Perokok Pasif',
     '<div style="padding: 20px; font-family: ''Helvetica Neue'', Helvetica, Arial, sans-serif; line-height: 1.6; color: #333;">
-       <h2 style="color: #2e7d32; margin-top: 0; font-size: 22px; display: flex; align-items: center;">
-         <span style="font-size: 28px; margin-right: 10px;">🌬️</span> Bahaya Bagi Orang Lain
+       <h2 style="text-transform: uppercase; color: #2e7d32; margin-top: 0; font-size: 22px; display: flex; align-items: center;">
+         <span style="text-transform: uppercase; font-size: 28px; margin-right: 10px;">🌬️</span> Bahaya Bagi Orang Lain
        </h2>
        <div style="background-color: #fff3e0; padding: 20px; border-radius: 10px; border: 1px solid #ffe0b2; margin-bottom: 20px;">
-         <p style="font-size: 17px; color: #e65100; margin: 0; text-align: center;">
+         <p style="font-size: 17px; color: #e65100; margin: 0; text-align: left;">
            <strong>Perokok Pasif</strong> (orang yang menghirup asap rokok orang lain) memiliki risiko kesehatan serius, bahkan jika mereka tidak pernah merokok.
          </p>
        </div>
 
        <div style="display: grid; gap: 20px;">
          <div style="background-color: #f9f9f9; padding: 20px; border-radius: 10px; border-left: 5px solid #d32f2f; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
-           <div style="display: flex; align-items: center; margin-bottom: 15px;">
+           <div style="display: flex; align-items: center; margin-bottom: 5px;">
              <span style="font-size: 28px; margin-right: 12px;">👶</span>
-             <strong style="color: #c62828; font-size: 18px;">Dampak pada Anak & Bayi</strong>
+             <strong style="text-transform: uppercase; color: #c62828; font-size: 18px;">Dampak pada Anak & Bayi</strong>
            </div>
-           <ul style="color: #555; margin: 0; padding-left: 25px; font-size: 15px; line-height: 1.7;">
-             <li>Meningkatkan risiko Sindrom Kematian Bayi Mendadak (SIDS).</li>
-             <li>Anak lebih sering terkena infeksi telinga, batuk, pilek, dan serangan asma yang lebih parah.</li>
-             <li>Menghambat pertumbuhan paru-paru anak.</li>
+           <ul style="color: #555; margin: 0; font-size: 15px; line-height: 1.7;">
+             <li>1. Meningkatkan risiko Sindrom Kematian Bayi Mendadak (SIDS).</li>
+             <li>2. Terkena infeksi telinga, batuk, pilek, dan serangan asma yang lebih parah.</li>
+             <li>3. Menghambat pertumbuhan paru-paru anak.</li>
            </ul>
          </div>
          <div style="background-color: #f9f9f9; padding: 20px; border-radius: 10px; border-left: 5px solid #2e7d32; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
-           <div style="display: flex; align-items: center; margin-bottom: 10px;">
+           <div style="display: flex; align-items: center; margin-bottom: 5x;">
              <span style="font-size: 28px; margin-right: 12px;">🏠</span>
-             <strong style="color: #2e7d32; font-size: 18px;">Lindungi Keluarga Anda</strong>
+             <strong style="text-transform: uppercase; color: #2e7d32; font-size: 18px;">Lindungi Keluarga Anda</strong>
            </div>
            <p style="color: #555; margin: 0; font-size: 15px;">
-             Tidak ada tingkat paparan asap rokok yang aman. Menjadikan rumah dan kendaraan Anda zona 100% bebas rokok adalah satu-satunya cara melindungi keluarga.
+             Tidak ada tingkat paparan asap rokok yang aman. Menjadikan rumah dan kendaraan anda zona 100% bebas rokok adalah satu-satunya cara melindungi keluarga.
            </p>
          </div>
        </div>
@@ -259,21 +283,21 @@ VALUES (
     6, 1, 6,
     'Dampak Sosial dan Ekonomi',
     '<div style="padding: 20px; font-family: ''Helvetica Neue'', Helvetica, Arial, sans-serif; line-height: 1.6; color: #333;">
-       <h2 style="color: #2e7d32; margin-top: 0; font-size: 22px; text-align: center; margin-bottom: 25px;">Lebih dari Sekadar Masalah Kesehatan</h2>
+       <h2 style="text-transform: uppercase; color: #2e7d32; margin-top: 0; font-size: 22px; text-align: left; margin-bottom: 25px;">Lebih dari Sekadar Masalah Kesehatan</h2>
        <div style="display: grid; gap: 20px;">
          <div style="background-color: #fff; padding: 22px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.05); border: 1px solid #e0e0e0; border-top: 4px solid #2e7d32;">
-           <div style="display: flex; align-items: center; margin-bottom: 15px;">
+           <div style="display: flex; align-items: center; margin-bottom: 5px;">
              <span style="font-size: 32px; margin-right: 15px; color: #2e7d32;">💸</span>
-             <strong style="color: #2e7d32; font-size: 20px;">Kerugian Finansial (Pemborosan)</strong>
+             <strong style="text-transform: uppercase; color: #2e7d32; font-size: 20px;">Kerugian Finansial (Pemborosan)</strong>
            </div>
            <p style="color: #555; margin: 0; font-size: 16px; line-height: 1.7;">
-             Hitunglah! Jika satu bungkus rokok seharga Rp25.000 sehari, setahun Anda membakar <strong>Rp9.125.000</strong>. Bayangkan apa yang bisa Anda beli, tabung, atau investasikan dengan uang sebanyak itu untuk masa depanmu.
+             Jika satu bungkus rokok seharga Rp25.000 sehari, setahun anda membakar <strong>Rp9.125.000</strong>. Bayangkan apa yang bisa anda beli, tabung, atau investasikan dengan uang tersebut.
            </p>
          </div>
          <div style="background-color: #fff; padding: 22px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.05); border: 1px solid #e0e0e0; border-top: 4px solid #1976d2;">
-           <div style="display: flex; align-items: center; margin-bottom: 15px;">
+           <div style="display: flex; align-items: center; margin-bottom: 5px;">
              <span style="font-size: 32px; margin-right: 15px; color: #1976d2;">🤝</span>
-             <strong style="color: #1565c0; font-size: 20px;">Dampak Sosial & Penampilan</strong>
+             <strong style="text-transform: uppercase; color: #1565c0; font-size: 20px;">Dampak Sosial & Penampilan</strong>
            </div>
            <p style="color: #555; margin: 0; font-size: 16px; line-height: 1.7;">
              Bau asap yang menempel di baju, rambut, dan napas bisa mengganggu orang lain. Gigi kuning dan kulit kusam memengaruhi penampilan. Anda tetap bisa bergaul, terlihat keren, dan diterima tanpa harus merokok. Teman sejati akan mendukung kesehatanmu.
@@ -291,8 +315,8 @@ VALUES (
     7, 1, 7,
     'Aturan dan Hak Bukan Perokok',
     '<div style="padding: 20px; font-family: ''Helvetica Neue'', Helvetica, Arial, sans-serif; line-height: 1.6; color: #333;">
-       <h2 style="color: #2e7d32; margin-top: 0; font-size: 22px; display: flex; align-items: center;">
-         <span style="font-size: 28px; margin-right: 10px;">⚖️</span> Kawasan Tanpa Rokok (KTR)
+       <h2 style="text-transform: uppercase; color: #2e7d32; margin-top: 0; font-size: 22px; display: flex; align-items: center;">
+         <span style="font-size: 28px; margin-right: 10px; margin-bottom: 10px;">⚖️</span> Kawasan Tanpa Rokok (KTR)
        </h2>
 
        <div style="background-color: #f1f8e9; padding: 25px; border-radius: 12px; border-left: 5px solid #2e7d32; margin-bottom: 25px;">
@@ -309,7 +333,7 @@ VALUES (
          <div style="background-color: #fff; padding: 15px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); border: 1px solid #c5e1a5;">
            <strong style="color: #2e7d32; font-size: 18px; display: flex; align-items: center;"><span style="margin-right: 10px;">✋</span> Hak Anda Sebagai Bukan Perokok:</strong>
            <p style="margin-top: 10px; color: #555; font-size: 16px;">
-             Anda memiliki hak fundamental untuk menghirup udara bersih. Jangan ragu untuk dengan sopan meminta orang lain mematikan rokoknya jika mereka merokok di area KTR atau di dekat Anda. Ini demi kesehatan bersama.
+             Anda memiliki hak fundamental untuk menghirup udara bersih. Jangan ragu untuk dengan sopan meminta orang lain mematikan rokoknya jika mereka merokok di area KTR atau di dekat anda. Ini demi kesehatan bersama.
            </p>
          </div>
        </div>
@@ -324,10 +348,11 @@ VALUES (
     8, 1, 8,
     'Hidup Lebih Baik Tanpa Rokok',
     '<div style="padding: 20px; font-family: ''Helvetica Neue'', Helvetica, Arial, sans-serif; line-height: 1.6; color: #333;">
-       <h2 style="color: #2e7d32; margin-top: 0; font-size: 22px; text-align: center; margin-bottom: 10px;">
-         <span style="font-size: 32px; display: block; margin-bottom: 5px;">🌟</span> Tubuh Mulai Pulih
+       <h2 style="text-transform: uppercase; color: #2e7d32; margin-top: 0; font-size: 22px; text-align: left; margin-bottom: 10px;">
+         <span style="font-size: 24px;">🌟</span>
+         Tubuh Mulai Pulih
        </h2>
-       <p style="text-align: center; color: #555; margin-bottom: 25px;">Manfaat berhenti merokok dimulai segera setelah rokok terakhir Anda:</p>
+       <p style="text-align: left; color: #555; margin-bottom: 25px;">Manfaat berhenti merokok dimulai segera setelah rokok terakhir anda:</p>
 
        <div style="display: grid; gap: 15px; margin-bottom: 30px;">
          <div style="background-color: #e8f5e9; padding: 18px; border-radius: 10px; border-left: 4px solid #43a047; display: flex; align-items: center;">
@@ -352,8 +377,8 @@ VALUES (
            </div>
          </div>
        </div>
-       <p style="text-align: center; color: #2e7d32; font-weight: bold; font-size: 18px; background-color: #f1f8e9; padding: 15px; border-radius: 8px;">
-         Berhenti merokok adalah investasi kesehatan terbaik yang bisa Anda lakukan!
+       <p style="text-align: left; color: #2e7d32; font-weight: bold; font-size: 18px; background-color: #f1f8e9; padding: 15px; border-radius: 8px;">
+         Berhenti merokok adalah investasi kesehatan yang bisa anda lakukan!
        </p>
     </div>',
     '/public/modules/8.TanpaRokok.png',
@@ -368,32 +393,32 @@ VALUES (
     9, 1, 9,
     'Tips Berhenti Merokok',
     '<div style="padding: 20px; font-family: ''Helvetica Neue'', Helvetica, Arial, sans-serif; line-height: 1.6; color: #333;">
-       <h2 style="color: #2e7d32; margin-top: 0; font-size: 22px; text-align: center; margin-bottom: 25px;">
-         <span style="font-size: 32px; margin-right: 10px;">💪</span> Metode 4D & Efikasi Diri
+       <h2 style="text-transform: uppercase; color: #2e7d32; margin-top: 0; font-size: 22px; text-align: left; margin-bottom: 10px;">
+         <span style="font-size: 32px; margin-right: 10px;">💪</span> Metode 4D
        </h2>
        <div style="background-color: #fff; padding: 25px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); border: 1px solid #e0e0e0;">
-         <p style="color: #555; text-align: center; margin-bottom: 25px; font-size: 16px;">
-           Saat keinginan kuat untuk merokok (craving) datang, ingatlah bahwa rasa itu hanya bertahan beberapa menit. Lawan dengan rumus <strong>4D</strong> ini:
+         <p style="color: #555; text-align: left; margin-bottom: 25px; font-size: 16px;">
+           Saat keinginan kuat untuk merokok (craving) datang, ingatlah bahwa rasa itu hanya bertahan beberapa menit. Lawan dengan <strong>4D</strong>:
          </p>
          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
            <div style="background-color: #f5f5f5; padding: 20px; border-radius: 10px; border-top: 4px solid #ef5350; text-align: center;">
              <span style="font-size: 32px; display: block; margin-bottom: 10px;">⏳</span>
-             <strong style="color: #c62828; font-size: 18px; display: block;">1. Delay (Tunda)</strong>
+             <strong style="text-transform: uppercase; color: #c62828; font-size: 18px; display: block;">1. Delay (Tunda)</strong>
              <p style="margin: 10px 0 0 0; color: #555; font-size: 15px;">Tunda keinginan itu. Katakan "nanti 10 menit lagi". Biasanya keinginan itu akan hilang sendiri.</p>
            </div>
            <div style="background-color: #f5f5f5; padding: 20px; border-radius: 10px; border-top: 4px solid #42a5f5; text-align: center;">
              <span style="font-size: 32px; display: block; margin-bottom: 10px;">🧘</span>
-             <strong style="color: #1565c0; font-size: 18px; display: block;">2. Deep Breath (Napas)</strong>
+             <strong style="text-transform: uppercase; color: #1565c0; font-size: 18px; display: block;">2. Deep Breath (Napas)</strong>
              <p style="margin: 10px 0 0 0; color: #555; font-size: 15px;">Tarik napas dalam-dalam lewat hidung, keluarkan perlahan lewat mulut. Ulangi 3x sampai rileks.</p>
            </div>
            <div style="background-color: #f5f5f5; padding: 20px; border-radius: 10px; border-top: 4px solid #66bb6a; text-align: center;">
              <span style="font-size: 32px; display: block; margin-bottom: 10px;">💧</span>
-             <strong style="color: #2e7d32; font-size: 18px; display: block;">3. Drink Water (Minum)</strong>
+             <strong style="text-transform: uppercase; color: #2e7d32; font-size: 18px; display: block;">3. Drink Water (Minum)</strong>
              <p style="margin: 10px 0 0 0; color: #555; font-size: 15px;">Minum air putih secara perlahan. Ini membantu membasuh tenggorokan dan mengalihkan rasa ingin.</p>
            </div>
            <div style="background-color: #f5f5f5; padding: 20px; border-radius: 10px; border-top: 4px solid #ffa726; text-align: center;">
              <span style="font-size: 32px; display: block; margin-bottom: 10px;">🏃</span>
-             <strong style="color: #e65100; font-size: 18px; display: block;">4. Do Something Else</strong>
+             <strong style="text-transform: uppercase; color: #e65100; font-size: 18px; display: block;">4. Do Something Else</strong>
              <p style="margin: 10px 0 0 0; color: #555; font-size: 15px;">Alihkan perhatian! Berolahraga, mengunyah permen karet bebas gula, atau ngobrol dengan teman yang mendukung.</p>
            </div>
          </div>
@@ -409,10 +434,9 @@ VALUES (
     10, 1, 10,
     'Game Teka-Teki Silang',
     '<div style="padding: 40px 20px; font-family: ''Helvetica Neue'', Helvetica, Arial, sans-serif; line-height: 1.6; color: #333; text-align: center;">
-       <div style="margin-bottom: 30px;">
-         <span style="font-size: 70px; color: #2e7d32;">🎮</span>
-         <h2 style="color: #2e7d32; font-size: 28px; margin: 15px 0 5px 0;">Uji Pengetahuanmu!</h2>
-         <p style="color: #777; font-size: 18px; margin: 0;">Tema: Bahaya Merokok & Manfaat Berhenti</p>
+       <div style="margin-bottom: 15px;">
+         <h2 style="text-transform: uppercase; color: #2e7d32; font-size: 28px; margin: 10px 0 5px 0;"><span style="font-size: 45px; color: #2e7d32;">🎮</span> FUN TIME!</h2>
+         <p style="color: #777; font-size: 18px; margin: 0;">Tema: Bahaya & Manfaat Berhenti Merokok</p>
        </div>
        <div style="background-color: #f1f8e9; padding: 30px; border-radius: 15px; border: 2px solid #a5d6a7; max-width: 600px; margin: 0 auto; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
          <p style="color: #33691e; font-size: 18px; margin-bottom: 20px;">
