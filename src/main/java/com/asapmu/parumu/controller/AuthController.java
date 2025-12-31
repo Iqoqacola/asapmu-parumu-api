@@ -21,7 +21,6 @@ public class AuthController {
     @PostMapping("/register")
     public ResponseEntity<Map<String, String>> register(@Valid @RequestBody RegisterRequest request) {
         String result = userService.register(request);
-        // Mengembalikan respons dalam format JSON agar konsisten
         Map<String, String> response = Collections.singletonMap("success", result);
         return ResponseEntity.ok(response);
     }

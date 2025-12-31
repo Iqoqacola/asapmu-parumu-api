@@ -23,7 +23,6 @@ public class Step {
     @Column(columnDefinition = "TEXT")
     private String textContent;
 
-    // Nama kolom disesuaikan dengan database
     @Column(name = "image_url")
     private String imageUrl;
 

@@ -15,9 +15,8 @@ public class ContentService {
     private final StepRepository stepRepository;
 
     public List<StepDto> getAllSteps() {
-        // Mengambil semua steps dari database, diurutkan berdasarkan step_order
         return stepRepository.findAllByOrderByStepOrderAsc().stream()
-                .map(StepDto::new) // Mengonversi setiap Step Entity menjadi StepDto
+                .map(StepDto::new)
                 .collect(Collectors.toList());
     }
 }
