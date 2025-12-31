@@ -10,7 +10,7 @@ import lombok.NoArgsConstructor;
 public class StepDto {
     private Long id;
 
-    @JsonProperty("step_order") // Mengubah nama field saat diubah menjadi JSON
+    @JsonProperty("step_order")
     private int stepOrder;
 
     private String title;
@@ -30,7 +30,6 @@ public class StepDto {
     @JsonProperty("media_description")
     private String mediaDescription;
 
-    // Constructor untuk konversi dari Entity ke DTO
     public StepDto(Step step) {
         this.id = step.getId();
         this.stepOrder = step.getStepOrder();

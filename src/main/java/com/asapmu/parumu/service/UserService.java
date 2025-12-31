@@ -22,7 +22,6 @@ public class UserService {
     public String register(RegisterRequest request) {
 
         if (userRepository.existsByUsername(request.getUsername())) {
-            // Jika username sudah ada, lempar error dengan pesan yang jelas
             throw new RuntimeException("Username sudah terdaftar!");
         }
 
