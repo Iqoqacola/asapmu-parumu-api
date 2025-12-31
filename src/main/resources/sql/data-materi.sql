@@ -48,7 +48,7 @@ VALUES (
        <div style="background-color: #E3F2FD; padding: 15px 20px; margin-bottom: 20px; border-radius: 8px; border-left: 4px solid #1E88E5; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
          <div style="display: flex; align-items: center; margin-bottom: 5px;">
            <span style="font-size: 20px; margin-right: 10px;">🚬️</span>
-           <strong style="text-transform: uppercase;  color: #1E88E5; font-size: 18px;">APA ITU ROKOK?</strong>
+           <strong style="text-transform: uppercase; color: #1E88E5; font-size: 18px;">APA ITU ROKOK?</strong>
          </div>
          <p style="font-size: 16px;">
            Rokok adalah silinder kertas berisi daun tembakau olahan. Meski umum, rokok mengandung bahan yang <strong style="color: #d32f2f;">sangat berbahaya bagi kesehatan</strong> (baik bagi perokok maupun orang sekitar).
@@ -88,7 +88,7 @@ VALUES (
            <div style="display: flex; align-items: flex-start;">
              <span style="font-size: 24px; margin-right: 12px;">🫁</span>
              <div>
-               <strong style="color: #2e7d32; font-size: 17px;">Tar</strong>
+               <strong style="text-transform: uppercase; color: #2e7d32; font-size: 17px;">Tar</strong>
                <p style="margin: 5px 0 0 0; color: #555; font-size: 15px;">Residu lengket berwarna cokelat yang mengendap di paru-paru, merusak silia, dan pemicu utama kanker.</p>
              </div>
            </div>
@@ -97,7 +97,7 @@ VALUES (
            <div style="display: flex; align-items: flex-start;">
              <span style="font-size: 24px; margin-right: 12px;">💊</span>
              <div>
-               <strong style="color: #c62828; font-size: 17px;">Nikotin</strong>
+               <strong style="text-transform: uppercase; color: #c62828; font-size: 17px;">Nikotin</strong>
                <p style="margin: 5px 0 0 0; color: #555; font-size: 15px;">Zat adiktif yang membuat kecanduan. Nikotin mencapai otak dalam 10 detik, meningkatkan detak jantung dan tekanan darah.</p>
              </div>
            </div>
@@ -106,7 +106,7 @@ VALUES (
            <div style="display: flex; align-items: flex-start;">
              <span style="font-size: 24px; margin-right: 12px;">🌫️</span>
              <div>
-               <strong style="color: #e65100; font-size: 17px;">Karbon Monoksida (CO)</strong>
+               <strong style="text-transform: uppercase; color: #e65100; font-size: 17px;">Karbon Monoksida (CO)</strong>
                <p style="margin: 5px 0 0 0; color: #555; font-size: 15px;">Gas beracun (sama seperti asap knalpot) yang mengikat hemoglobin darah, sehingga tubuh kekurangan oksigen.</p>
              </div>
            </div>
@@ -115,7 +115,7 @@ VALUES (
            <div style="display: flex; align-items: flex-start;">
              <span style="font-size: 24px; margin-right: 12px;">🧪</span>
              <div>
-               <strong style="color: #37474f; font-size: 17px;">Logam Berat & Racun Lain</strong>
+               <strong style="text-transform: uppercase; color: #37474f; font-size: 17px;">Logam Berat & Racun Lain</strong>
                <p style="margin: 5px 0 0 0; color: #555; font-size: 15px;">Mengandung Arsenik (racun tikus), Timbal, Formaldehida (pengawet mayat), dan Benzena (pelarut industri).</p>
              </div>
            </div>
@@ -396,11 +396,11 @@ VALUES (
        <h2 style="text-transform: uppercase; color: #2e7d32; margin-top: 0; font-size: 22px; text-align: left; margin-bottom: 10px;">
          <span style="font-size: 32px; margin-right: 10px;">💪</span> Metode 4D
        </h2>
-       <div style="background-color: #fff; padding: 25px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); border: 1px solid #e0e0e0;">
+--       <div style="background-color: #fff; padding: 25px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); border: 1px solid #e0e0e0;">
          <p style="color: #555; text-align: left; margin-bottom: 25px; font-size: 16px;">
            Saat keinginan kuat untuk merokok (craving) datang, ingatlah bahwa rasa itu hanya bertahan beberapa menit. Lawan dengan <strong>4D</strong>:
          </p>
-         <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
+         <div style="display: grid;   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px; ">
            <div style="background-color: #f5f5f5; padding: 20px; border-radius: 10px; border-top: 4px solid #ef5350; text-align: center;">
              <span style="font-size: 32px; display: block; margin-bottom: 10px;">⏳</span>
              <strong style="text-transform: uppercase; color: #c62828; font-size: 18px; display: block;">1. Delay (Tunda)</strong>
@@ -422,7 +422,7 @@ VALUES (
              <p style="margin: 10px 0 0 0; color: #555; font-size: 15px;">Alihkan perhatian! Berolahraga, mengunyah permen karet bebas gula, atau ngobrol dengan teman yang mendukung.</p>
            </div>
          </div>
-       </div>
+--       </div>
     </div>',
     '/modules/9.TipsBerhenti.png',
     NULL, NULL, NULL
